@@ -14,3 +14,26 @@ I am a Computer Engineering student at Gachon University in South Korea, origina
 - `styles.css` — responsive design
 - `script.js` — theme and mobile navigation interactions
 - `assets/profile.jpg` — profile photograph
+
+## Week 10.2 — GitHub Pages deployment
+
+The site is configured for GitHub Pages deployment with the workflow in `.github/workflows/deploy.yml`.
+
+### One-time GitHub Pages setup
+1. Open this repository on GitHub.
+2. Go to **Settings → Pages**.
+3. Under **Build and deployment**, choose **GitHub Actions** as the source.
+4. Open the **Actions** tab and confirm that **Deploy portfolio to GitHub Pages** finishes successfully.
+
+When deployment succeeds, the portfolio will be available at:
+https://saimansilwal7-oss.github.io/portfolio/
+
+### Accessibility checks
+- Semantic landmarks: header, navigation, main, and footer.
+- Responsive layouts and mobile navigation.
+- Keyboard-operable theme and navigation controls.
+- Descriptive alt text for the profile photograph.
+- Dark and light theme color contrast adjusted for WCAG AA text contrast.
+- Visible keyboard focus indicators.
+
+Run Lighthouse in Chrome or PageSpeed Insights after the public URL is live. Save a screenshot showing the Accessibility score (90 or higher) for the Week 10.2 submission.
