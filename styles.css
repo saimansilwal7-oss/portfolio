@@ -16,7 +16,7 @@ button{font:inherit;cursor:pointer}
 .wordmark{text-decoration:none;font:bold 22px/1 Arial,sans-serif;letter-spacing:-1px}
 .wordmark span{color:var(--rust);padding-left:4px}
 .nav-links{display:flex;align-items:center;gap:28px}
-.nav-links a,.footer-inner>a:last-child{font:600 13px Arial,sans-serif;text-decoration-thickness:1px;text-underline-offset:5px}
+.nav-links a,.footer-inner>a:last-child,.text-link{font:600 13px Arial,sans-serif;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:5px}
 .nav-links a:hover,.footer-inner>a:last-child:hover{color:var(--rust);text-decoration:underline}
 .theme-toggle,.menu-toggle{border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:50%;width:40px;height:40px}
 .menu-toggle{display:none;border-radius:6px;width:auto;padding:0 12px;font:600 13px Arial,sans-serif}
