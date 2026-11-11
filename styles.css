@@ -127,3 +127,32 @@ button:focus-visible,a:focus-visible{border-radius:3px}
 .dark .closing{background:#263d30}
 .dark .closing .section-label,.dark .closing-signoff{color:#f0d6a2}
 .dark .closing h2 em{color:#ffc2a8}
+
+
+/* Anime adventure-park visual theme */
+:root{--paper:#fff8ec;--paper-deep:#f4e6d9;--ink:#252b49;--muted:#505875;--line:#dfcbbd;--green:#315c54;--rust:#a33f56;--white:#fffdf8;--gold:#e4b957;--sky:#dcecf0}
+body{background-color:var(--paper);background-image:radial-gradient(#d9b5a2 .7px,transparent .7px);background-size:22px 22px}
+.site-header{background:rgba(255,248,236,.96);border-bottom:2px solid var(--ink);backdrop-filter:blur(8px)}
+.wordmark span,.kicker-dot{color:var(--rust)}.kicker-dot{background:var(--rust)}
+h1{font-weight:900;text-shadow:3px 3px 0 #f2d7c9}.name-mark,h2 em{color:var(--rust)}
+.button{border:2px solid var(--ink);border-radius:7px;box-shadow:4px 4px 0 var(--ink)}
+.button-dark{background:var(--green);color:white}.button-dark:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink)}
+.theme-toggle,.menu-toggle{border:2px solid var(--ink);background:var(--gold);color:var(--ink)}
+.photo-frame{border:2px solid var(--ink);border-radius:5px;box-shadow:8px 9px 0 #e8b9a9}
+.photo-index{border:2px solid var(--ink);border-radius:4px}
+.section-pad{border-top:2px dashed var(--line)}.story{background:var(--paper-deep)}
+.skill-list{border-top:2px solid var(--ink)}.skill-tag{border:1px solid var(--green);border-radius:30px}
+.work{background:var(--sky)}.project-card{border:2px solid var(--ink);border-radius:9px;box-shadow:6px 6px 0 #b6cdd0}
+.art-web{background:linear-gradient(145deg,#d6e6d4,#f7d8c8);color:#294a3b}.art-team{background:linear-gradient(145deg,#f2d9c9,#d7dff1);color:#633d30}
+.project-art{border:1px solid var(--ink);border-radius:5px}
+.project-link{color:#8c2e48}
+.closing{background:#293754;position:relative;overflow:hidden}.closing:after{content:"✧  ✦  ✧  ✦";position:absolute;right:5%;top:18%;font-size:34px;color:#f2d18d;opacity:.5;writing-mode:vertical-rl}
+.closing .section-label,.closing-signoff{color:#f2d18d}.closing h2 em{color:#ffb5ad}
+.button-light{background:#fff4df;color:#252b49}
+.site-footer{border-top:2px solid var(--ink)}
+:focus-visible{outline:3px solid #8c2e48;outline-offset:4px}
+:root.dark{--paper:#171d31;--paper-deep:#242d46;--ink:#f6f0e8;--muted:#c8cee0;--line:#4a5570;--green:#83b8a4;--rust:#ff9daf;--white:#242d46;--gold:#e7c36c;--sky:#202b42}
+.dark .site-header,.dark .nav-links{background:var(--paper)}.dark .button-dark{background:#315e56;color:#fff}
+.dark .art-web{background:#304c46;color:#f2eee4}.dark .art-team{background:#55445b;color:#fff0e2}
+.dark .project-link{color:#ffb0c0}.dark .closing{background:#11182a}
+@media(max-width:560px){.nav-links{background:var(--paper);border-bottom:2px solid var(--ink)}}
