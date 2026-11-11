@@ -1,18 +1,115 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Portfolio of Saiman Silwal, Computer Engineering student at Gachon University.">
-<title>Saiman Silwal | Portfolio</title><link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Saiman Silwal's student portfolio: a learning journey from Dhading, Nepal to Gachon University in South Korea.">
+  <meta name="theme-color" content="#f4f0e6">
+  <title>Saiman Silwal — My learning journal</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
-<header class="header"><nav class="nav wrap" aria-label="Main navigation"><a class="logo" href="#home">SAIMAN<span>.</span></a><button class="menu" aria-expanded="false" aria-controls="links" aria-label="Open menu">☰</button><div class="links" id="links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a><button id="theme" aria-label="Switch to light theme">☼</button></div></nav></header>
-<main id="main">
-<section class="hero wrap" id="home"><div><p class="eyebrow">COMPUTER ENGINEERING STUDENT</p><h1>Hi, I'm <em>Saiman</em><br>Silwal.</h1><p class="lead">A curious learner exploring technology, creativity, and the ideas that make everyday life better.</p><div class="actions"><a class="btn primary" href="#projects">Explore my work ↗</a><a class="btn" href="#contact">Get in touch</a></div><p class="location">Based in South Korea · Originally from Nepal</p></div><div class="portrait"><img src="assets/profile.jpg" alt="Saiman Silwal at a mountain viewpoint in South Korea"><span>Curious mind.<br>Always learning.</span></div></section>
-<section class="section" id="about"><div class="wrap two"><div><p class="eyebrow">01 / ABOUT ME</p><h2>Learning today.<br><em>Building tomorrow.</em></h2></div><div class="copy"><p>I'm Saiman Silwal, a Computer Engineering student at Gachon University in South Korea. I'm originally from Dhading, Nepal, and I enjoy discovering how technology can solve real-world problems.</p><p>I'm currently strengthening my foundations in web development, programming, machine learning, and cloud computing. I believe curiosity, consistent practice, and learning from mistakes are the best ways to grow.</p></div></div></section>
-<section class="section shade" id="skills"><div class="wrap"><p class="eyebrow">02 / MY TOOLKIT</p><h2>Skills &amp; <em>tools.</em></h2><p class="muted">Skills I'm developing through university coursework and hands-on practice.</p><div class="cards four"><article><b>01</b><h3>Web development</h3><p>HTML · CSS · JavaScript</p></article><article><b>02</b><h3>Programming</h3><p>Python · C · C++</p></article><article><b>03</b><h3>Tools &amp; workflow</h3><p>Git · GitHub · VS Code</p></article><article><b>04</b><h3>Exploring next</h3><p>Machine Learning · Cloud</p></article></div></div></section>
-<section class="section" id="projects"><div class="wrap"><p class="eyebrow">03 / SELECTED WORK</p><h2>Course <em>projects.</em></h2><p class="muted">A few stops in my learning journey. More projects will be added as I grow.</p><div class="cards projects"><article class="project"><div class="art web"> &lt; / &gt; <small>BUILD · LEARN · CREATE</small></div><div class="project-body"><p class="eyebrow">WEB DEVELOPMENT</p><h3>Web Programming Coursework</h3><p>A collection of coursework exploring HTML, CSS, JavaScript, APIs, forms, and responsive design.</p><a href="https://github.com/saimansilwal7-oss/WEB-PROGRAMMING" target="_blank" rel="noopener">View repository ↗</a></div></article><article class="project"><div class="art team">04 <small>COLLABORATE · DESIGN · BUILD</small></div><div class="project-body"><p class="eyebrow">TEAM PROJECT</p><h3>Team 4 Course Project</h3><p>A collaborative university project focused on planning and building a shared website with teammates.</p><a href="https://github.com/sushant0101n-gif/team-4-project" target="_blank" rel="noopener">View repository ↗</a></div></article></div></div></section>
-<section class="contact" id="contact"><div class="wrap"><p class="eyebrow">04 / SAY HELLO</p><h2>Let's make something<br><em>meaningful.</em></h2><p>I'm always open to learning, collaborating, and connecting with people who enjoy building things.</p><div class="actions"><a class="btn primary" href="https://github.com/saimansilwal7-oss" target="_blank" rel="noopener">GitHub profile ↗</a><a class="btn" href="https://saimansilwal7-oss.github.io/saiman-silwal-202537200/" target="_blank" rel="noopener">My existing website ↗</a></div></div></section>
-</main><footer class="footer"><div class="wrap foot"><a class="logo" href="#home">SAIMAN<span>.</span></a><p>Designed and built by Saiman Silwal · <span id="year"></span></p><a href="#home">Back to top ↑</a></div></footer>
-</body></html>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="wordmark" href="#home" aria-label="Saiman Silwal, home">saiman<span>✳</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation">Menu</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">My story</a>
+        <a href="#skills">What I'm learning</a>
+        <a href="#projects">My work</a>
+        <a href="#contact">Say hello</a>
+        <button class="theme-toggle" id="theme" type="button" aria-label="Switch to dark theme">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="intro wrap" id="home" aria-labelledby="intro-title">
+      <div class="intro-copy">
+        <p class="kicker"><span class="kicker-dot"></span> A STUDENT'S WORK IN PROGRESS</p>
+        <h1 id="intro-title">Hello, I'm<br><span class="name-mark">Saiman Silwal.</span></h1>
+        <p class="intro-text">I'm a Computer Engineering student learning how to turn small ideas into useful things. This is my corner of the internet — a place for my projects, experiments and progress.</p>
+        <div class="intro-actions">
+          <a class="button button-dark" href="#projects">See what I've made <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="#about">A little about me</a>
+        </div>
+        <div class="route-note" aria-label="My journey from Dhading, Nepal to Gachon University, South Korea">
+          <span>DHADING, NEPAL</span><span class="route-line" aria-hidden="true"></span><span>GACHON, SOUTH KOREA</span>
+        </div>
+      </div>
+      <figure class="portrait-card">
+        <div class="photo-frame"><img src="assets/profile.jpg" alt="Saiman Silwal smiling at a mountain viewpoint"></div>
+        <figcaption><span>Currently learning</span><strong>One step at a time.</strong></figcaption>
+        <span class="photo-index" aria-hidden="true">01 / ME</span>
+      </figure>
+    </section>
+
+    <section class="story section-pad" id="about" aria-labelledby="about-title">
+      <div class="wrap story-grid">
+        <div>
+          <p class="section-label">01 — THE PERSON BEHIND THE SCREEN</p>
+          <h2 id="about-title">A little about<br><em>my journey.</em></h2>
+          <p class="hand-note">Not an expert yet. Just getting started, and enjoying the process.</p>
+        </div>
+        <div class="story-copy">
+          <p>I'm Saiman, originally from Dhading, Nepal, and currently studying Computer Engineering at Gachon University in South Korea.</p>
+          <p>At university I'm building my foundations in web development, programming, machine learning and cloud computing. I learn best by trying things myself, making mistakes, fixing them and trying again.</p>
+          <p>When I'm away from my assignments, I enjoy games, anime and keeping memories of the people and places that make life interesting.</p>
+          <div class="personal-facts">
+            <div><span>FROM</span><strong>Dhading, Nepal</strong></div>
+            <div><span>BASED IN</span><strong>South Korea</strong></div>
+            <div><span>STUDYING</span><strong>Computer Engineering</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="learning section-pad" id="skills" aria-labelledby="skills-title">
+      <div class="wrap">
+        <p class="section-label">02 — MY CURRENT TOOLBOX</p>
+        <h2 id="skills-title">Things I'm <em>learning.</em></h2>
+        <p class="section-intro">These are skills I'm practising through classes and small projects. Still learning — always improving.</p>
+        <div class="skill-list">
+          <article class="skill-item"><span class="skill-number">01</span><div><h3>Web basics</h3><p>HTML, CSS and JavaScript — making pages that work on different screens.</p></div><span class="skill-tag">IN PRACTICE</span></article>
+          <article class="skill-item"><span class="skill-number">02</span><div><h3>Programming</h3><p>Python, C and C++ — learning to solve problems one step at a time.</p></div><span class="skill-tag">BUILDING</span></article>
+          <article class="skill-item"><span class="skill-number">03</span><div><h3>Tools I use</h3><p>Git, GitHub and VS Code — keeping my work organised and learning to collaborate.</p></div><span class="skill-tag">GETTING COMFORTABLE</span></article>
+          <article class="skill-item"><span class="skill-number">04</span><div><h3>Next on my list</h3><p>Machine learning and cloud computing — exploring how they work in real projects.</p></div><span class="skill-tag">EXPLORING</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section-pad" id="projects" aria-labelledby="projects-title">
+      <div class="wrap">
+        <p class="section-label">03 — MADE WHILE LEARNING</p>
+        <div class="work-heading"><h2 id="projects-title">A few things<br><em>I've worked on.</em></h2><p>These projects are part of my university journey. I'll add more as I learn and build.</p></div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-art art-web" aria-hidden="true"><span class="art-label">COURSE NOTES / 01</span><span class="code-mark">&lt;web&gt;</span><span class="art-caption">PAGES, PIXELS<br>&amp; PRACTICE</span></div>
+            <div class="project-info"><p class="project-type">WEB PROGRAMMING</p><h3>My web programming work</h3><p>A growing collection of class exercises: HTML pages, CSS layouts, JavaScript interactions, APIs and forms.</p><a class="project-link" href="https://github.com/saimansilwal7-oss/WEB-PROGRAMMING" target="_blank" rel="noopener noreferrer">Look through the code <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-team" aria-hidden="true"><span class="art-label">GROUP WORK / 02</span><span class="team-mark">04</span><span class="art-caption">IDEAS ARE BETTER<br>WHEN SHARED</span></div>
+            <div class="project-info"><p class="project-type">TEAM COURSE PROJECT</p><h3>Team 4 website project</h3><p>A group assignment where we plan, design and build together, learning how to make a shared idea work.</p><a class="project-link" href="https://github.com/sushant0101n-gif/team-4-project" target="_blank" rel="noopener noreferrer">Visit the team repository <span aria-hidden="true">↗</span></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing section-pad" id="contact" aria-labelledby="contact-title">
+      <div class="wrap closing-inner">
+        <p class="section-label">04 — THE NEXT CHAPTER</p>
+        <h2 id="contact-title">Still learning.<br><em>More to come.</em></h2>
+        <p>This page will grow as I do. If you're working on something interesting, I'd be happy to connect, learn or build together.</p>
+        <a class="button button-light" href="https://github.com/saimansilwal7-oss" target="_blank" rel="noopener noreferrer">Find me on GitHub <span aria-hidden="true">↗</span></a>
+        <p class="closing-signoff">— Saiman</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner"><a class="wordmark" href="#home">saiman<span>✳</span></a><p>Made by me, with patience and plenty of practice. <span id="year"></span></p><a href="#home">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
